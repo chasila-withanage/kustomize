@@ -9,4 +9,5 @@ spec:
     - port: 80
   selector:
     app: wordpress
-  type: LoadBalancer
+  type: NodePort
+

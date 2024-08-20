@@ -1,0 +1,11 @@
+resources:        
+- deployment.yaml
+- service.yaml
+
+namePrefix: new-tag-
+
+images:
+- name: nginx
+  newName: nginx
+  newTag: 1.26.0-alpine3.19
+

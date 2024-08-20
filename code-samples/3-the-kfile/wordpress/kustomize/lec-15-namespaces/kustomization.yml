@@ -4,9 +4,9 @@ kind: Kustomization
 commonLabels:
   version: lec-15
 
-namePrefix: lec-15-
+namePrefix: lec-15
 
-namespace: lec-15
+namespace: nadeera-bosa
 
 # transformers:
 #   - ./transformers/namespace.yml

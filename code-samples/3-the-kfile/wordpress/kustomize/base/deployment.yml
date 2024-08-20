@@ -15,6 +15,7 @@ spec:
       labels:
         app: wordpress
     spec:
+      restartPolicy: Always
       containers:
       - image: wordpress:4.8-apache
         name: wordpress
@@ -27,3 +28,4 @@ spec:
       volumes:
       - name: wordpress-persistent-storage
         emptyDir: {}
+

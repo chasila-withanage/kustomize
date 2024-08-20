@@ -13,3 +13,4 @@ namePrefix: lec-12-
 
 resources:
 - nginx-deployment.yml
+- service.yml

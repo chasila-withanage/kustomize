@@ -7,14 +7,15 @@ kind: Kustomization
 labels:
 - pairs:
     version: lec-16
-  includeSelectors: false
+  includeSelectors: true
   includeTemplates: true
 
 commonAnnotations:
   annotated-by: kustomize
 
-namePrefix: lec-16-
+#namePrefix: lec-16-
 
 resources:
 - mysql
 - ../base
+

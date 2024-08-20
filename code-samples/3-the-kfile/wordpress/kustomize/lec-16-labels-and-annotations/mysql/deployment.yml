@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: mysql
   strategy:
-    type: Recreate
+    type: Recreate #RollingUpdate
   template:
     metadata:
       labels:
